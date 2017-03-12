@@ -1,6 +1,7 @@
 # jQuery_Calculator
 An in-browser interactive calculator using CSS3, jQuery, and math.js
 
+
 <b><u>What I learned from this project:</u></b>
 
 In an application where many buttons of different logical requirements are used, planning the logic and design ahead of time greatly reduces time spent fixing errors and Googling for answers.
