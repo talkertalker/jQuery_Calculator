@@ -62,7 +62,6 @@ $(document).ready(function() {
       currentBank = [];
       userBank.push("*");
       continuedEquation = true;
-      console.log(userBank);
     } else {
       if (isResult) {
         userBank.push(parseFloat(display.html()));
@@ -73,7 +72,6 @@ $(document).ready(function() {
       currentBank = [];
       userBank.push($(this).html());
       continuedEquation = true;
-      console.log(userBank);
     }
   });
 
