@@ -1,0 +1,163 @@
+@font-face {
+  font-family: alarmClock;
+  src: url('/Users/daveyknific/Desktop/Developer/Programming/AngularCalc/fonts/alarm clock.ttf');
+}
+
+@font-face {
+  font-family: Brawler;
+  src: url("/Users/daveyknific/Desktop/Developer/Programming/AngularCalc/fonts/Brawler.otf");
+}
+
+body {
+  background: white;
+}
+
+h1 {
+  font-family: Brawler;
+  color: #424242;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+.divider {
+  position: relative;
+  height: 1px;
+  width: 320px;
+  background: #424242;
+  margin: 0 auto 25px auto;
+}
+
+#calculator {
+  position: relative;
+  height: 225px;
+  width: 200px;
+  margin: auto;
+  border-bottom: 2px solid #c6c6c6;
+  border-right: 2px solid #c6c6c6;
+}
+
+.calculator__top {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  padding-top: 5px;
+  background: #3a3a3a;
+}
+
+.screen__background {
+  position: relative;
+  height: 66px;
+  width: 180px;
+  padding-top: 4px;
+  background: #919de2;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+
+.screen {
+  position: relative;
+  height: 60px;
+  width: 160px;
+  background: #f8f9ef;
+  margin: auto;
+  border-radius: 5px;
+  border-left: solid 2px #b4b5ad;
+  border-top: solid 2px #b4b5ad;
+  font-family: alarmClock;
+  font-size: 32px;
+  text-align: right;
+}
+
+.screen__placeholder {
+  opacity: 0.5;
+  color: #d5d6cd;
+  z-index: -1;
+}
+
+.screen__view {
+  position: absolute;
+  top: 0;
+  left: 9px;
+}
+
+.calculator__top--divider {
+  position: relative;
+  height: 2px;
+  width: 100%;
+  background: #b23d29;
+  margin-top: 13px;
+}
+
+.calculator__bottom {
+  position: relative;
+  width: 200px;
+  height: 120px;
+  background: #f0f2e8;
+}
+
+.keypad {
+  position: relative;
+  width: 184px;
+  height: 210px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.keypad__num {
+  position: relative;
+  width: 110px;
+  height: 200px;
+  float: left;
+}
+
+.keypad__symbols {
+  height: 200px;
+  width: 72px;
+  float: left;
+}
+
+.keypad__button {
+  position: relative;
+  width: 30px;
+  height: 18px;
+  text-align: center;
+  float: left;
+  margin: 2px;
+  font-family: Arial;
+  background: #3a3a3a;
+  color: #fcfcfc;
+}
+
+.keypad__num .keypad__button {
+  border-bottom: 2px solid #d6d6d6;
+}
+
+.keypad__symbols .keypad__button {
+  background: #ed7a57;
+  border-bottom: 2px solid #fcb8a1;
+}
+
+.plusSign,
+.equalSign {
+  height: 42px
+}
+
+.keypad__button:hover {
+  cursor: pointer;
+}
+
+#links {
+  position: relative;
+  top: -40px;
+  text-align: center;
+  padding: 0;
+  width: 340px;
+  height: 30px;
+  font-family: Brawler;
+  margin: auto;
+}
