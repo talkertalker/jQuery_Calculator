@@ -1,6 +1,7 @@
 # jQuery_Calculator
 An in-browser interactive calculator using CSS3, jQuery, and math.js
 
+<a href="http://www.dtkfrontend.design/jquerycalculator/">Live Demo</a>
 
 <b><u>What I learned from this project:</u></b>
 
